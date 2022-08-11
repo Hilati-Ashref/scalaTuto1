@@ -4,16 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d960df7-add3-4e76-8c61-2ea0ce57def7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala3_library_3_3_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/scalaTuto1-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scalaTuto1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scalaTuto1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+    <list default="true" id="7d960df7-add3-4e76-8c61-2ea0ce57def7" name="Changes" comment="added">
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch/src/ammonite/$file/^/^/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch/target/META-INF/semanticdb/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc.semanticdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch/target/ammonite/$file/$up/$up/AppData/Roaming/JetBrains/IdeaIC2022$u002E2/scratches/scratch$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch/target/ammonite/$file/$up/$up/AppData/Roaming/JetBrains/IdeaIC2022$u002E2/scratches/scratch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch/target/ammonite/$file/$up/$up/AppData/Roaming/JetBrains/IdeaIC2022$u002E2/scratches/scratch.tasty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/src/main/scala/test/src/ammonite/$file/src/main/scala/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/src/main/scala/test/target/META-INF/semanticdb/ammonite/$file/src/main/scala/test.scala.semanticdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/src/main/scala/test/target/META-INF/semanticdb/src/main/scala/test.sc.semanticdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/src/main/scala/test/target/ammonite/$file/src/main/scala/test$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/src/main/scala/test/target/ammonite/$file/src/main/scala/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ammonite/scala-2.13.8/amm-2.5.4-13-1ebd00a6/src/main/scala/test/target/ammonite/$file/src/main/scala/test.tasty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/bloop.settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root-test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-JJakM6xDTnKgPJy_XqYIXA==-zjDZii0vQvyBx3JLTZV1lQ==/HelloWorld$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-JJakM6xDTnKgPJy_XqYIXA==-zjDZii0vQvyBx3JLTZV1lQ==/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-JJakM6xDTnKgPJy_XqYIXA==-zjDZii0vQvyBx3JLTZV1lQ==/HelloWorld.tasty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-JJakM6xDTnKgPJy_XqYIXA==-zjDZii0vQvyBx3JLTZV1lQ==/META-INF/semanticdb/src/main/scala/main.scala.semanticdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-JJakM6xDTnKgPJy_XqYIXA==-zjDZii0vQvyBx3JLTZV1lQ==/Timer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-JJakM6xDTnKgPJy_XqYIXA==-zjDZii0vQvyBx3JLTZV1lQ==/Timer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-JJakM6xDTnKgPJy_XqYIXA==-zjDZii0vQvyBx3JLTZV1lQ==/Timer.tasty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.bloop/root/root-analysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metals/metals.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metals/metals.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.bloop/bloop.settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.bloop/scalatuto1-build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/metals.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/project/metals.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/project/project/target/config-classes/$3a56de4521cc2a0d892f$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/project/project/target/config-classes/$3a56de4521cc2a0d892f.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/project/project/target/config-classes/$3a56de4521cc2a0d892f.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scalaTuto1-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scalaTuto1-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
     </list>
@@ -30,6 +54,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scalaTuto1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,14 +86,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "scala_project_settings_configurable.last_selected_tab_index": "6",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Scala Worksheet"
+    ]
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="scalaTuto1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Timer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Timer" />
       <module name="scalaTuto1" />
@@ -62,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Timer" />
       </list>
     </recent_temporary>
@@ -83,6 +140,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660138312396</updated>
     </task>
+    <task id="LOCAL-00001" summary="added">
+      <created>1660142605052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660142605052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +160,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added" />
+    <option name="LAST_COMMIT_MESSAGE" value="added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

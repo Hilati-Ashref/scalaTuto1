@@ -1,0 +1,658 @@
+2022.08.10 17:05:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Hilati\IdeaProjects\scalaTuto1\.metals\lsp.trace.json or C:\Users\Hilati\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.10 17:05:14 INFO  logging to file C:\Users\Hilati\IdeaProjects\scalaTuto1\.metals\metals.log
+2022.08.10 17:05:14 INFO  Started: Metals version 0.11.8 in workspace 'C:\Users\Hilati\IdeaProjects\scalaTuto1' for client Visual Studio Code 1.70.0.
+2022.08.10 17:05:18 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.10 17:05:19 INFO  time: initialize in 5.7s
+2022.08.10 17:05:22 WARN  Build server is not auto-connectable.
+2022.08.10 17:05:22 WARN  no build target for: C:\Users\Hilati\IdeaProjects\scalaTuto1\src\main\scala\main.scala
+2022.08.10 17:05:27 INFO  running 'C:\Program Files\Amazon Corretto\jdk18.0.2_9\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Hilati\AppData\Local\Temp\metals1845562707329728195\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.08.10 17:05:28 INFO  no build target found for C:\Users\Hilati\IdeaProjects\scalaTuto1\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.10 17:05:30 INFO  [info] welcome to sbt 1.7.1 (Amazon.com Inc. Java 18.0.2)
+2022.08.10 17:05:32 INFO  [info] loading global plugins from C:\Users\Hilati\.sbt\1.0\plugins
+2022.08.10 17:05:36 INFO  [info] loading settings for project scalatuto1-build-build from metals.sbt ...
+2022.08.10 17:05:36 INFO  [info] loading project definition from C:\Users\Hilati\IdeaProjects\scalaTuto1\project\project
+2022.08.10 17:05:39 INFO  [info] loading settings for project scalatuto1-build from metals.sbt ...
+2022.08.10 17:05:39 INFO  [info] loading project definition from C:\Users\Hilati\IdeaProjects\scalaTuto1\project
+2022.08.10 17:05:42 INFO  [success] Generated .bloop\scalatuto1-build.json
+2022.08.10 17:05:42 INFO  [success] Total time: 3 s, completed Aug 10, 2022, 5:05:42 PM
+2022.08.10 17:05:44 INFO  [info] loading settings for project root from build.sbt ...
+2022.08.10 17:05:44 INFO  [info] set current project to scalaTuto1 (in build file:/C:/Users/Hilati/IdeaProjects/scalaTuto1/)
+2022.08.10 17:05:44 INFO  [success] Generated .bloop\root-test.json
+2022.08.10 17:05:44 INFO  [success] Generated .bloop\root.json
+2022.08.10 17:05:44 INFO  [success] Total time: 0 s, completed Aug 10, 2022, 5:05:44 PM
+2022.08.10 17:05:44 INFO  time: ran 'sbt bloopInstall' in 17s
+2022.08.10 17:05:44 INFO  Attempting to connect to the build server...
+2022.08.10 17:05:44 INFO  Setting up current java home C:\Program Files\Amazon Corretto\jdk18.0.2_9 in C:\Users\Hilati\.bloop\bloop.json
+2022.08.10 17:05:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hilati\IdeaProjects\scalaTuto1\.metals\bsp.trace.json or C:\Users\Hilati\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.08.10 17:05:52 INFO  Attempting to connect to the build server...
+2022.08.10 17:05:52 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk18.0.2_9 defined at C:\Users\Hilati\.bloop\bloop.json
+2022.08.10 17:05:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hilati\IdeaProjects\scalaTuto1\project\.metals\bsp.trace.json or C:\Users\Hilati\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.08.10 17:05:54 INFO  time: Connected to build server in 9.49s
+2022.08.10 17:05:54 INFO  Connected to Build server: Bloop v1.5.3
+2022.08.10 17:05:54 INFO  time: Imported build in 0.29s
+2022.08.10 17:06:00 INFO  time: indexed workspace in 5.54s
+2022.08.10 17:06:00 INFO  compiling root (1 scala source)
+2022.08.10 17:06:08 INFO  time: compiled root in 7.33s
+Aug 10, 2022 5:06:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 385 out of bounds for length 385
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 385 out of bounds for length 385
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 385 out of bounds for length 385
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.10 17:06:48 WARN  no build target for: C:\Users\Hilati\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc
+2022.08.10 17:06:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hilati\IdeaProjects\scalaTuto1\.metals\bsp.trace.json or C:\Users\Hilati\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.08.10 17:06:59 INFO  Ammonite: Starting BSP server
+
+2022.08.10 17:06:59 INFO  Connected to Ammonite Build server v2.5.4-13-1ebd00a6
+2022.08.10 17:07:08 INFO  Ammonite: Aug 10, 2022 5:07:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.08.10 17:07:08 INFO  Java targets not supported by server
+2022.08.10 17:07:11 INFO  time: indexed workspace in 3.09s
+2022.08.10 17:07:13 INFO  compiling ../../appdata/roaming/jetbrains/ideaic2022.2/scratches/scratch.sc
+2022.08.10 17:07:16 WARN  unexpected error processing the file C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\target\META-INF\semanticdb\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc.semanticdbjava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:83)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:77)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:76)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:76)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:66)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:66)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2$adapted(SemanticdbIndexer.scala:89)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$4(MetalsLanguageServer.scala:1431)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.08.10 17:07:16 INFO  time: compiled scratch.sc in 3.04s
+2022.08.10 17:07:16 INFO  file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc:1:1: stale scalac warning: The package name `IdeaIC2022.2` will be encoded on the classpath, and can lead to undefined behaviour.
+
+^
+2022.08.10 17:07:16 INFO  file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc:1:1: stale scalac warning: The package name `^` will be encoded on the classpath, and can lead to undefined behaviour.
+
+^
+2022.08.10 17:07:16 INFO  file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc:1:1: stale scalac warning: The package name `^` will be encoded on the classpath, and can lead to undefined behaviour.
+
+^
+2022.08.10 17:07:28 INFO  compiling ../../appdata/roaming/jetbrains/ideaic2022.2/scratches/scratch.sc
+2022.08.10 17:07:29 INFO  time: compiled scratch.sc in 1.11s
+2022.08.10 17:07:29 WARN  unexpected error processing the file C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\target\META-INF\semanticdb\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc.semanticdbjava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:83)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:77)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:76)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:76)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:66)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:66)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2$adapted(SemanticdbIndexer.scala:89)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$4(MetalsLanguageServer.scala:1431)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Aug 10, 2022 5:07:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\src\ammonite\$file\..\..\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:427)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:716)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:692)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:652)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:648)
+	at scala.meta.internal.metals.Compilers.completions(Compilers.scala:373)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completion$1(MetalsLanguageServer.scala:1653)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completion(MetalsLanguageServer.scala:1653)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Aug 10, 2022 5:07:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\src\ammonite\$file\..\..\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:427)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:716)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:692)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:652)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:648)
+	at scala.meta.internal.metals.Compilers.completions(Compilers.scala:373)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completion$1(MetalsLanguageServer.scala:1653)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completion(MetalsLanguageServer.scala:1653)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Aug 10, 2022 5:07:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\src\ammonite\$file\..\..\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:427)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:716)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:692)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:652)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:648)
+	at scala.meta.internal.metals.Compilers.completions(Compilers.scala:373)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completion$1(MetalsLanguageServer.scala:1653)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completion(MetalsLanguageServer.scala:1653)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Aug 10, 2022 5:07:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\src\ammonite\$file\..\..\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:427)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:716)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:692)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:652)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:648)
+	at scala.meta.internal.metals.Compilers.completions(Compilers.scala:373)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completion$1(MetalsLanguageServer.scala:1653)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completion(MetalsLanguageServer.scala:1653)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2022.08.10 17:07:47 INFO  compiling ../../appdata/roaming/jetbrains/ideaic2022.2/scratches/scratch.sc
+2022.08.10 17:07:47 INFO  time: compiled scratch.sc in 0.88s
+2022.08.10 17:07:48 WARN  unexpected error processing the file C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\target\META-INF\semanticdb\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc.semanticdbjava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:83)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:77)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:76)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:76)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:66)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:66)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2$adapted(SemanticdbIndexer.scala:89)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$4(MetalsLanguageServer.scala:1431)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.08.10 17:07:48 WARN  unexpected error processing the file C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\target\META-INF\semanticdb\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc.semanticdbjava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:83)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:77)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:76)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:76)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:66)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:66)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2$adapted(SemanticdbIndexer.scala:89)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$4(MetalsLanguageServer.scala:1431)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Aug 10, 2022 5:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\src\ammonite\$file\..\..\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:427)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:716)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:692)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$5(Compilers.scala:679)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:663)
+	at scala.meta.internal.metals.Compilers.hover(Compilers.scala:445)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$hover$1(MetalsLanguageServer.scala:1488)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.hover(MetalsLanguageServer.scala:1486)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Aug 10, 2022 5:08:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 385 out of bounds for length 385
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 385 out of bounds for length 385
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 385 out of bounds for length 385
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.10 17:08:55 INFO  disconnected: ammonite build server
+2022.08.10 17:08:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hilati\IdeaProjects\scalaTuto1\.metals\bsp.trace.json or C:\Users\Hilati\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.08.10 17:08:57 ERROR timeout: build server 'Ammonite' during shutdown
+2022.08.10 17:08:58 INFO  Ammonite: Starting BSP server
+
+2022.08.10 17:08:58 INFO  Connected to Ammonite Build server v2.5.4-13-1ebd00a6
+2022.08.10 17:09:08 INFO  Ammonite: Aug 10, 2022 5:09:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.08.10 17:09:08 INFO  Java targets not supported by server
+2022.08.10 17:09:10 WARN  unexpected error processing the file C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\target\META-INF\semanticdb\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc.semanticdbjava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:83)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:77)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:76)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:76)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:66)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:66)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2$adapted(SemanticdbIndexer.scala:89)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChangeDirectory$1(SemanticdbIndexer.scala:68)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChangeDirectory(SemanticdbIndexer.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onTargetRoots$1(SemanticdbIndexer.scala:33)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onTargetRoots$1$adapted(SemanticdbIndexer.scala:31)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at scala.meta.internal.metals.SemanticdbIndexer.onTargetRoots(SemanticdbIndexer.scala:31)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:237)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:237)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:141)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:141)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.08.10 17:09:10 INFO  time: indexed workspace in 2.38s
+2022.08.10 17:09:11 INFO  compiling ../../appdata/roaming/jetbrains/ideaic2022.2/scratches/scratch.sc
+2022.08.10 17:09:14 WARN  unexpected error processing the file C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\target\META-INF\semanticdb\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc.semanticdbjava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:83)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:77)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:76)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:76)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:66)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:66)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2$adapted(SemanticdbIndexer.scala:89)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$4(MetalsLanguageServer.scala:1431)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.08.10 17:09:14 WARN  unexpected error processing the file C:\Users\Hilati\IdeaProjects\scalaTuto1\.ammonite\scala-2.13.8\amm-2.5.4-13-1ebd00a6\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch\target\META-INF\semanticdb\AppData\Roaming\JetBrains\IdeaIC2022.2\scratches\scratch.sc.semanticdbjava.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/Hilati/AppData/Roaming/JetBrains/IdeaIC2022.2/scratches/scratch.sc
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:83)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:77)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:76)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:76)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:66)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:66)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$2$adapted(SemanticdbIndexer.scala:89)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$4(MetalsLanguageServer.scala:1431)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.08.10 17:09:14 INFO  time: compiled scratch.sc in 3.97s
+2022.08.10 17:09:14 INFO  compiling src/main/scala/test.sc
+2022.08.10 17:09:14 INFO  time: compiled test.sc in 0.72s
+2022.08.10 17:09:42 INFO  shutting down Metals
+2022.08.10 17:09:42 INFO  Shut down connection with build server.
+2022.08.10 17:09:42 INFO  Shut down connection with build server.
+Ignored error while deleting temporary file C:\Users\Hilati\AppData\Local\Temp\ammonite-2.5.4-13-1ebd00a64345219361054806395.jar: java.nio.file.FileSystemException: C:\Users\Hilati\AppData\Local\Temp\ammonite-2.5.4-13-1ebd00a64345219361054806395.jar: The process cannot access the file because it is being used by another process
+Ignored error while deleting temporary file C:\Users\Hilati\AppData\Local\Temp\ammonite-2.5.4-13-1ebd00a69028011971644642350.jar: java.nio.file.FileSystemException: C:\Users\Hilati\AppData\Local\Temp\ammonite-2.5.4-13-1ebd00a69028011971644642350.jar: The process cannot access the file because it is being used by another process

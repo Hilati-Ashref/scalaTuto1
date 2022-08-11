@@ -1,6 +1,9 @@
 object HelloWorld {
+  def test(valeur: Double): String =
+    val retour = "The number is "
+    retour + valeur.toInt
   def main(args: Array[String]): Unit = {
-    println("Hello, world!")
+    println("Hello, " + test(15))
   }
 }
 object Timer {
